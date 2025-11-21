@@ -1,11 +1,4 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
-/.vs/Bao_Cao_.NET/v17
+﻿.vs/
+*.user
+bin/
+obj/

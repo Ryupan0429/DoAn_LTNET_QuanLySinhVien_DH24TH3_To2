@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\DoAn_LTNET_QuanLySinhVien_DH24TH3_To2\\appQLSV\\DangNhap\\DangNhap.csproj": {}
+    "D:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\DoAn_LTNET_QuanLySinhVien_DH24TH3_To2\\appQLSV\\DangNhap\\DangNhap.csproj": {
+    "D:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\DoAn_LTNET_QuanLySinhVien_DH24TH3_To2\\appQLSV\\DangNhap\\DangNhap.csproj",
+        "projectUniqueName": "D:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj",
         "projectName": "DangNhap",
-        "projectPath": "D:\\Workspace\\DoAn_LTNET_QuanLySinhVien_DH24TH3_To2\\appQLSV\\DangNhap\\DangNhap.csproj",
-        "packagesPath": "C:\\Users\\TUONG VY\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\DoAn_LTNET_QuanLySinhVien_DH24TH3_To2\\appQLSV\\DangNhap\\obj\\",
+        "projectPath": "D:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj",
+        "packagesPath": "C:\\Users\\SenetUser\\.nuget\\packages\\",
+        "outputPath": "D:\\Do_an__.NET\\appQLSV\\DangNhap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TUONG VY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SenetUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
