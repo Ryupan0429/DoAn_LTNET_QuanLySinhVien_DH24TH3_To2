@@ -14,7 +14,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DangNhap
+<<<<<<< Updated upstream
 build_property.ProjectDir = E:\Do_an__.NET\appQLSV\DangNhap\
+=======
+build_property.ProjectDir = D:\Đồ án Lập trình net\appQLSV\DangNhap\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

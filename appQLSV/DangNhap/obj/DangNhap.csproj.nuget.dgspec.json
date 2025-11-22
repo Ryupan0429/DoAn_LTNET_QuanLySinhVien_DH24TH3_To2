@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "E:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj": {}
   },
   "projects": {
@@ -12,13 +13,27 @@
         "projectPath": "E:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj",
         "packagesPath": "C:\\Users\\TRUONG\\.nuget\\packages\\",
         "outputPath": "E:\\Do_an__.NET\\appQLSV\\DangNhap\\obj\\",
+=======
+    "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\DangNhap.csproj": {}
+  },
+  "projects": {
+    "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\DangNhap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\DangNhap.csproj",
+        "projectName": "DangNhap",
+        "projectPath": "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\DangNhap.csproj",
+        "packagesPath": "C:\\Users\\SenetUser\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\TRUONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\SenetUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +83,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }

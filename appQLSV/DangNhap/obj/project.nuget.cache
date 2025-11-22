@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "mWXqkymqNik=",
   "success": true,
   "projectFilePath": "E:\\Do_an__.NET\\appQLSV\\DangNhap\\DangNhap.csproj",
+=======
+  "dgSpecHash": "OyrEy5HQLPs=",
+  "success": true,
+  "projectFilePath": "D:\\Đồ án Lập trình net\\appQLSV\\DangNhap\\DangNhap.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }
