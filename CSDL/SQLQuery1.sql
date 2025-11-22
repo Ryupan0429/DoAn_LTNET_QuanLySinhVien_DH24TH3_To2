@@ -60,6 +60,7 @@ CREATE TABLE SinhVien (
     Phai NVARCHAR(3) Default N'Nam' check (Phai in (N'Nam',N'Nữ')),
     SDT VARCHAR(10) NOT NULL UNIQUE, 
     QueQuan NVARCHAR(50),
+    DiaChi NVARCHAR(200), 
 
     MaLop VARCHAR(10), 
     FOREIGN KEY (MaLop) REFERENCES Lop(MaLop)
@@ -154,11 +155,10 @@ INSERT INTO HocPhan (MaHP, TenHP, SoTinChi, MaKhoa, NamHoc, LoaiHP) VALUES
 ('YDT014', N'Giải phẫu người', 4, 'YD', N'2024-2025', N'Tiên quyết'),
 ('XDT015', N'Vẽ kỹ thuật', 3, 'XD', N'2024-2025', N'Bắt buộc');
 
--- Cập nhật INSERT SinhVien có thêm QueQuan
-INSERT INTO SinhVien (MaSV, HoLot, TenSV, NgaySinh, Phai, SDT, QueQuan, MaLop) VALUES
-('CN23001', N'Nguyễn Văn', N'An', '2000-01-15', N'Nam', '0901111111', N'Hà Nội', 'DH23IT01'),
-('CN23002', N'Trần Thị', N'Bình', '2001-05-20', N'Nữ', '0902222222', N'Hải Phòng', 'DH23IT01'),
-('CN23003', N'Lê Văn', N'Chính', '2002-11-30', N'Nam', '0903333333', N'Đà Nẵng', 'DH23PM'),
-('KT23004', N'Phạm Thu', N'Dung', '2000-08-10', N'Nữ', '0904444444', N'TP. Hồ Chí Minh', 'DH23QT'),
-('KT23005', N'Hoàng Minh', N'Hải', '2001-03-05', N'Nam', '0905555555', N'Cần Thơ', 'DH23QT');
+INSERT INTO SinhVien (MaSV, HoLot, TenSV, NgaySinh, Phai, SDT, QueQuan, DiaChi, MaLop) VALUES
+('CN23001', N'Nguyễn Văn', N'An', '2000-01-15', N'Nam', '0901111111', N'Hà Nội', N'18 Ung Văn Khiêm, P. Đông Xuyên, TP. Long Xuyên', 'DH23IT01'),
+('CN23002', N'Trần Thị', N'Bình', '2001-05-20', N'Nữ', '0902222222', N'Nghệ An', N'KTX ĐH An Giang, TP. Long Xuyên', 'DH23IT01'),
+('CN23003', N'Lê Văn', N'Chính', '2002-11-30', N'Nam', '0903333333', N'TP. Hồ Chí Minh', N'Huyện Chợ Mới, An Giang', 'DH23PM'),
+('KT23004', N'Phạm Thu', N'Dung', '2000-08-10', N'Nữ', '0904444444', N'Lâm Đồng', N'12 Trần Hưng Đạo, TP. Long Xuyên', 'DH23QT'),
+('KT23005', N'Hoàng Minh', N'Hải', '2001-03-05', N'Nam', '0905555555', N'Cà Mau', N'P. Hưng Lợi, Q. Ninh Kiều, TP. Cần Thơ', 'DH23QT');
 GO
