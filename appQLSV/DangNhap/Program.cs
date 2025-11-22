@@ -2,6 +2,10 @@ namespace DangNhap
 {
     internal static class Program
     {
+
+        public static string TaiKhoanGlobal = "admin";
+        public static string MatKhauGlobal = "123456";
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>

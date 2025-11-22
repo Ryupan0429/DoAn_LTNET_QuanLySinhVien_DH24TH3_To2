@@ -32,6 +32,9 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
+            ckShowPass = new CheckBox();
+            lklblQuen_MK = new LinkLabel();
+            btnQuit = new Button();
             btnDangNhap = new Button();
             panel3 = new Panel();
             txtPassword = new TextBox();
@@ -64,6 +67,9 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(ckShowPass);
+            panel1.Controls.Add(lklblQuen_MK);
+            panel1.Controls.Add(btnQuit);
             panel1.Controls.Add(btnDangNhap);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
@@ -71,13 +77,37 @@
             resources.ApplyResources(panel1, "panel1");
             panel1.Name = "panel1";
             // 
+            // ckShowPass
+            // 
+            resources.ApplyResources(ckShowPass, "ckShowPass");
+            ckShowPass.Name = "ckShowPass";
+            ckShowPass.UseVisualStyleBackColor = true;
+            ckShowPass.CheckedChanged += ckShowPass_CheckedChanged;
+            // 
+            // lklblQuen_MK
+            // 
+            resources.ApplyResources(lklblQuen_MK, "lklblQuen_MK");
+            lklblQuen_MK.Name = "lklblQuen_MK";
+            lklblQuen_MK.TabStop = true;
+            lklblQuen_MK.LinkClicked += lklblQuen_MK_LinkClicked;
+            // 
+            // btnQuit
+            // 
+            btnQuit.BackColor = Color.Red;
+            resources.ApplyResources(btnQuit, "btnQuit");
+            btnQuit.ForeColor = Color.White;
+            btnQuit.Name = "btnQuit";
+            btnQuit.UseVisualStyleBackColor = false;
+            btnQuit.Click += btnQuit_Click;
+            // 
             // btnDangNhap
             // 
-            btnDangNhap.BackColor = Color.Goldenrod;
+            btnDangNhap.BackColor = Color.RoyalBlue;
             resources.ApplyResources(btnDangNhap, "btnDangNhap");
             btnDangNhap.ForeColor = Color.White;
             btnDangNhap.Name = "btnDangNhap";
             btnDangNhap.UseVisualStyleBackColor = false;
+            btnDangNhap.Click += btnDangNhap_Click;
             // 
             // panel3
             // 
@@ -168,5 +198,8 @@
         private TextBox txtPassword;
         private PictureBox pictureBox4;
         private Button btnDangNhap;
+        private LinkLabel lklblQuen_MK;
+        private Button btnQuit;
+        private CheckBox ckShowPass;
     }
 }
